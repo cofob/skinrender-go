@@ -1,0 +1,126 @@
+---
+map:
+# head
+- from:
+    x: 8
+    y: 8
+  to:
+    x: 16
+    y: 16
+  move:
+    x: 4
+    y: 0
+# top-head
+- from:
+    x: 40
+    y: 8
+  to:
+    x: 48
+    y: 16
+  move:
+    x: 4
+    y: 0
+# body
+- from:
+    x: 20
+    y: 20
+  to:
+    x: 28
+    y: 32
+  move:
+    x: 4
+    y: 8
+# top-body
+- from:
+    x: 20
+    y: 36
+  to:
+    x: 28
+    y: 48
+  move:
+    x: 4
+    y: 8
+# right hand
+- from:
+    x: 44
+    y: 20
+  to:
+    x: 48
+    y: 32
+  move:
+    x: 0
+    y: 8
+# top right hand
+- from:
+    x: 44
+    y: 36
+  to:
+    x: 48
+    y: 48
+  move:
+    x: 0
+    y: 8
+# left hand
+- from:
+    x: 36
+    y: 52
+  to:
+    x: 40
+    y: 64
+  move:
+    x: 12
+    y: 8
+# top left hand
+- from:
+    x: 52
+    y: 52
+  to:
+    x: 56
+    y: 64
+  move:
+    x: 12
+    y: 8
+# right foot
+- from:
+    x: 4
+    y: 20
+  to:
+    x: 8
+    y: 32
+  move:
+    x: 4
+    y: 20
+# top right foot
+- from:
+    x: 4
+    y: 36
+  to:
+    x: 8
+    y: 48
+  move:
+    x: 4
+    y: 20
+# left foot
+- from:
+    x: 20
+    y: 52
+  to:
+    x: 24
+    y: 64
+  move:
+    x: 8
+    y: 20
+# top left foot
+- from:
+    x: 4
+    y: 52
+  to:
+    x: 8
+    y: 64
+  move:
+    x: 8
+    y: 20
+
+size:
+  x: 16
+  y: 32
